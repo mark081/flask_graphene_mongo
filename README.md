@@ -1,5 +1,5 @@
-## Sample app to deploy a RESTful and GraphQL endpoint to AWS Lambda 
-## using Flask, Graphene and Zappa
+## RESTful and GraphQL Sevice with Deployments scripts for AWS Lambda and API Gateway
+## Using Flask, Graphene and Zappa
 
 ### To run:
 <code>
