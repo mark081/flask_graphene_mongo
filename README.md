@@ -17,5 +17,5 @@
   ./redeploy.sh
 </code>
 
-### _Note: This will not work unless you have awscli set up.
-For reference, refer to https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+**Note: This will not work unless you have awscli set up.
+For reference, refer to https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html**
