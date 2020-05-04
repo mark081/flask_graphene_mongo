@@ -1,7 +1,6 @@
 ```
-Simple Python service exposing RESTful and GraphQL endpoints
-With Deployments scripts for AWS Lambda and API Gateway
-Using Flask, Graphene and Zappa
+Simple Python service exposing RESTful and GraphQL endpoints with Deployments scripts for AWS Lambda and API Gateway
+using Flask, Graphene and Zappa
 ```
 
 ### To run:
