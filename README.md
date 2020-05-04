@@ -1,4 +1,5 @@
-## Sample app to deploy a RESTful and GraphQL endpoint to AWS Lambda using Flask, Graphene and Zappa
+## Sample app to deploy a RESTful and GraphQL endpoint to AWS Lambda 
+## using Flask, Graphene and Zappa
 
 ### To run:
 <code>
@@ -15,3 +16,6 @@
 <code>
   ./redeploy.sh
 </code>
+
+Note: This will not work unless you have awscli set up. 
+For reference, refer to https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
