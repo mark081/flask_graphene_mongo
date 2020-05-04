@@ -3,18 +3,18 @@ Simple Python service exposing RESTful and GraphQL endpoints with Deployments sc
 using Flask, Graphene and Zappa
 ```
 
-### To run:
+#### To run:
 <code>
   ./deploy.sh
 </code>
 
-### accepting all defaults should be fine
-### To undeploy:
+#### accepting all defaults should be fine
+#### To undeploy:
 <code>
   ./undeploy.sh
 </code>
 
-### To redeploy:
+#### To redeploy:
 <code>
   ./redeploy.sh
 </code>
