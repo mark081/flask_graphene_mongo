@@ -1,9 +1,9 @@
 ```
-Simple Python service exposing RESTful and GraphQL endpoints with Deployments scripts for AWS Lambda and API Gateway
-using Flask, Graphene and Zappa
+Python service providing common algorithms exposed through RESTful and GraphQL endpoints. 
+Includes deployment scripts for AWS Lambda and API Gateway
 ```
 
-#### To run:
+#### To deploy:
 <code>
   ./deploy.sh
 </code>
@@ -19,5 +19,5 @@ using Flask, Graphene and Zappa
   ./redeploy.sh
 </code>
 
-#### Note: This will not work unless you have awscli set up.
+#### Note: The deployment components will not work unless you have awscli set up.
 **For reference, refer to https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html**
