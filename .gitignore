@@ -130,3 +130,4 @@ dmypy.json
 
 #config file for zappa
 zappa_settings.json
+.idea/
