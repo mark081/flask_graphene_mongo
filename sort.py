@@ -18,6 +18,16 @@ def selection_sort(arr):
     return new_arr
 
 
+def quick_sort(arr):
+    if len(arr) < 2:
+        return arr
+    else:
+        pivot = arr[0]
+        less_subarray = [x for x in arr[1:] if x <= pivot]
+        greater_subarray = [x for x in arr[1:] if x > pivot]
+        return quick_sort(less_subarray) + [pivot] + quick_sort(greater_subarray)
+
+
 class TestSort(unittest.TestCase):
 
     def test_find_smallest(self):
@@ -28,6 +38,10 @@ class TestSort(unittest.TestCase):
     def test_selection_sort(self):
         array = [5, 9, 2, 8, 7, 7]
         self.assertEqual(selection_sort(array), [2, 5, 7, 7, 8, 9])
+
+    def test_quick_sort(self):
+        array = [5, 9, 2, 8, 7, 7]
+        self.assertEqual(quick_sort(array), [2, 5, 7, 7, 8, 9])
 
 
 if __name__ == '__main__':
