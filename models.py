@@ -4,13 +4,16 @@ from mongoengine import (
     DateTimeField, ReferenceField, StringField,
 )
 
+
 class Department(Document):
     meta = {'collection': 'department'}
     name = StringField()
 
+
 class Role(Document):
     meta = {'collection':'role'}
     name = StringField()
+
 
 class Employee(Document):
     meta = {'collection': 'employee'}
